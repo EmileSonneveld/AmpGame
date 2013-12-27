@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Lists">
+      <UniqueIdentifier>{87b33ca0-75df-4034-bcb0-0955107d02a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameWinMain.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AmpGame.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bal.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Magnet.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBaseList.cpp">
+      <Filter>Game Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicList.cpp">
+      <Filter>Game Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="HitRegionList.cpp">
+      <Filter>Game Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Kannon.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterOfLists.cpp">
+      <Filter>Game Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPoint.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootBal.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameWinMain.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AmpGame.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bal.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Magnet.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterOfLists.h">
+      <Filter>Game Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBaseList.h">
+      <Filter>Game Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Kannon.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListsController.h">
+      <Filter>Game Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDefines.h">
+      <Filter>Game Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPoint.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootBal.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AmpGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="big.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

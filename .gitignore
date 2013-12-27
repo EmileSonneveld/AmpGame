@@ -11,3 +11,24 @@
 *.lai
 *.la
 *.a
+
+# Visual studio specific
+*.obj
+*.sdf
+*.opensdf
+*.pdb
+
+# Emile specific
+x64
+*.BAK
+*.log
+*.ilk
+*.suo
+
+x64/
+Debug/
+Release/
+Documentation/
+doc/
+
+ipch/
